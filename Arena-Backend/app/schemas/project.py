@@ -8,6 +8,7 @@ class ProjectBase(BaseModel):
     contact: str | None = None
     url: str | None = None
     icon: str | None = None
+    comment: str | None = None
 
 class ProjectCreate(ProjectBase):
     pass

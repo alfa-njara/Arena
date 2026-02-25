@@ -14,4 +14,5 @@ class Project(Base):
     url = Column(String(255))
     icon = Column(String(100))
     likes = Column(Integer, default=0)
+    comment = Column(String(255))
     created_at = Column(DateTime, default=datetime.utcnow)
